@@ -4,12 +4,39 @@ A Database using sqlite3 and tkinter.
 This was a database created and modified to introduce dynamic interfaces and databases to the students that I teach python 
 lessons to.
 
-    This program is made up of a backEnd python file that is integrated with a GUI on a seperate file named frontEnd.py. The gui
-has text fields that can be updated in real time. 
-    The search capabilities also are in real time and return information 
-based on the amount of matching criteria within the search. For example, when one text field is filled in with a common 
-text shared upon multiple entries, all those entries are returned. The more text fields filled in, the more specific the return 
-becomes, up to the point of a singular match.
-    The delete function is implemented in a way that allows for a user to highlight an entry by clicking it or by typing it into the text fields.
-    The GUI also has the capability to display all entries upon request by pressing the update button.
-    All this runs in realtime and there is no need to restart the program after any change is made.
+The program uses sql calls to manipulate calls for text written to a text file
+
+
+
+![sqp_funcs2](https://github.com/r0meroh/DatabseWithGui/blob/master/images/sqlitefunctions1.png)
+
+![sql_funcs3](https://github.com/r0meroh/DatabseWithGui/blob/master/images/sqlitefunctions2.png)
+
+The python scsript intergrates definitions with tKinter objects to take in data.
+
+![back_end](https://github.com/r0meroh/DatabseWithGui/blob/master/images/backend0.png)
+
+tKinter objects
+
+![tkinter](https://github.com/r0meroh/DatabseWithGui/blob/master/images/grid0.png)
+
+This is how the GUI looks on Ubuntu when it is initialized.
+
+![empty_GUI](https://github.com/r0meroh/DatabseWithGui/blob/master/images/emptyGui.png)
+
+A entry can be added in through text fields.
+
+![add_game](https://github.com/r0meroh/DatabseWithGui/blob/master/images/fillInFields.png)
+
+Then a text file is created to store all the entries.
+
+![text_file](https://github.com/r0meroh/DatabseWithGui/blob/master/images/textFileCreated1.png)
+
+Entries can be selected by either clicking on the interface or typing into the text fields.
+
+![all_games](https://github.com/r0meroh/DatabseWithGui/blob/master/images/allGamesAdded.png)
+
+![delete_colums](https://github.com/r0meroh/DatabseWithGui/blob/master/images/deleteColumn.png)
+
+The entry field can be updated in real time using the buttons on the right. 
+![delete_sonic](https://github.com/r0meroh/DatabseWithGui/blob/master/images/deletetwoGames.png)
